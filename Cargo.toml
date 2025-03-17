@@ -1,0 +1,9 @@
+[package]
+name = "midi-hue-lights"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+midir = "0.10.1"
+reqwest = { version = "0.12.14", features = ["json"] }
+tokio = "1.44.1"
